@@ -1,0 +1,1624 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_b224687f17e1461e8e068ecefaf00a04 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b224687f17e1461e8e068ecefaf00a04" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_b224687f17e1461e8e068ecefaf00a04 = L.map(
+                                  'map_b224687f17e1461e8e068ecefaf00a04',
+                                  {center: [41.81,-87.62],
+                                  zoom: 5,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_159f74e803414b44a9d31099286e532b = L.tileLayer(
+                'https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_b224687f17e1461e8e068ecefaf00a04);
+        
+    
+            var marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a = L.markerClusterGroup({
+                
+            });
+            map_b224687f17e1461e8e068ecefaf00a04.addLayer(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+            var marker_137eff125fcc49b08e619ffb19d4fe25 = L.marker(
+                [40.807767,-73.96288905],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_cf64d484cf674525a7927f0b30333927 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_137eff125fcc49b08e619ffb19d4fe25.setIcon(icon_cf64d484cf674525a7927f0b30333927);
+            
+    
+            var popup_3a77f313c54e499db7f334c23f866c8e = L.popup({maxWidth: '300'});
+
+            
+                var html_0ec0b9e9076f4d5bb2407cc0162a0a49 = $('<div id="html_0ec0b9e9076f4d5bb2407cc0162a0a49" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_3a77f313c54e499db7f334c23f866c8e.setContent(html_0ec0b9e9076f4d5bb2407cc0162a0a49);
+            
+
+            marker_137eff125fcc49b08e619ffb19d4fe25.bindPopup(popup_3a77f313c54e499db7f334c23f866c8e);
+
+            
+        
+    
+
+            var marker_9eee42164c424e709f81c07f6b18e293 = L.marker(
+                [40.80781808,-73.96290053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_d018c04be2ad4bd98beb9c47d8214267 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9eee42164c424e709f81c07f6b18e293.setIcon(icon_d018c04be2ad4bd98beb9c47d8214267);
+            
+    
+            var popup_612715fc191e4326ae7a33449c73c4e3 = L.popup({maxWidth: '300'});
+
+            
+                var html_12147b0e35c147aeb90ddb8ba9a1b6b2 = $('<div id="html_12147b0e35c147aeb90ddb8ba9a1b6b2" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_612715fc191e4326ae7a33449c73c4e3.setContent(html_12147b0e35c147aeb90ddb8ba9a1b6b2);
+            
+
+            marker_9eee42164c424e709f81c07f6b18e293.bindPopup(popup_612715fc191e4326ae7a33449c73c4e3);
+
+            
+        
+    
+
+            var marker_cd4f6bf3d1934764882eee2edda9c426 = L.marker(
+                [40.80781808,-73.96290053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_a673f6c14b8244788b6ebcea283b5b53 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cd4f6bf3d1934764882eee2edda9c426.setIcon(icon_a673f6c14b8244788b6ebcea283b5b53);
+            
+    
+            var popup_29bd68fed5794eef83c1c968fcab824b = L.popup({maxWidth: '300'});
+
+            
+                var html_4a4d7c90b469412f8335553d31973d2d = $('<div id="html_4a4d7c90b469412f8335553d31973d2d" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_29bd68fed5794eef83c1c968fcab824b.setContent(html_4a4d7c90b469412f8335553d31973d2d);
+            
+
+            marker_cd4f6bf3d1934764882eee2edda9c426.bindPopup(popup_29bd68fed5794eef83c1c968fcab824b);
+
+            
+        
+    
+
+            var marker_cf518792e1bf449ab52786101e6025ff = L.marker(
+                [40.80767938,-73.96186163],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_a633172ebdbf48498b07fd66d2f80517 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cf518792e1bf449ab52786101e6025ff.setIcon(icon_a633172ebdbf48498b07fd66d2f80517);
+            
+    
+            var popup_0ecfc42beb364ec798f367fcd0ff927f = L.popup({maxWidth: '300'});
+
+            
+                var html_b6454927123744508c0c367931940816 = $('<div id="html_b6454927123744508c0c367931940816" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_0ecfc42beb364ec798f367fcd0ff927f.setContent(html_b6454927123744508c0c367931940816);
+            
+
+            marker_cf518792e1bf449ab52786101e6025ff.bindPopup(popup_0ecfc42beb364ec798f367fcd0ff927f);
+
+            
+        
+    
+
+            var marker_20aa1c76a56c4a8db7165c716a8de2aa = L.marker(
+                [40.80781808,-73.96290053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_171949bfe3c446d49c7039c88957b4fc = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_20aa1c76a56c4a8db7165c716a8de2aa.setIcon(icon_171949bfe3c446d49c7039c88957b4fc);
+            
+    
+            var popup_eb75cc095af34845a7b6cd99df4f2065 = L.popup({maxWidth: '300'});
+
+            
+                var html_a4da8e715738403f9e9e2f965dbc151d = $('<div id="html_a4da8e715738403f9e9e2f965dbc151d" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_eb75cc095af34845a7b6cd99df4f2065.setContent(html_a4da8e715738403f9e9e2f965dbc151d);
+            
+
+            marker_20aa1c76a56c4a8db7165c716a8de2aa.bindPopup(popup_eb75cc095af34845a7b6cd99df4f2065);
+
+            
+        
+    
+
+            var marker_0cfb17c1875d4c248b14d4ac2f323450 = L.marker(
+                [40.80781808,-73.96290053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_754e46b35c0340658fb8e1fe627407b3 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0cfb17c1875d4c248b14d4ac2f323450.setIcon(icon_754e46b35c0340658fb8e1fe627407b3);
+            
+    
+            var popup_a3b17af4f14947ceb78ad3d131fab3fa = L.popup({maxWidth: '300'});
+
+            
+                var html_21f891be93dd4d48bf628109d7f9bdff = $('<div id="html_21f891be93dd4d48bf628109d7f9bdff" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_a3b17af4f14947ceb78ad3d131fab3fa.setContent(html_21f891be93dd4d48bf628109d7f9bdff);
+            
+
+            marker_0cfb17c1875d4c248b14d4ac2f323450.bindPopup(popup_a3b17af4f14947ceb78ad3d131fab3fa);
+
+            
+        
+    
+
+            var marker_7a395158b2dd403babf282172443b7b7 = L.marker(
+                [41.8369,-87.6844],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_18ea9edf59bf45868596bb8f256e7541 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7a395158b2dd403babf282172443b7b7.setIcon(icon_18ea9edf59bf45868596bb8f256e7541);
+            
+    
+            var popup_cef5abdfcbf0477b87e1d6d5d904fedd = L.popup({maxWidth: '300'});
+
+            
+                var html_6ee13fb6c466448bbe7611af4fc1aeac = $('<div id="html_6ee13fb6c466448bbe7611af4fc1aeac" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_cef5abdfcbf0477b87e1d6d5d904fedd.setContent(html_6ee13fb6c466448bbe7611af4fc1aeac);
+            
+
+            marker_7a395158b2dd403babf282172443b7b7.bindPopup(popup_cef5abdfcbf0477b87e1d6d5d904fedd);
+
+            
+        
+    
+
+            var marker_cf090883c32d4d799f68bb0b51cd9519 = L.marker(
+                [40.80781808,-73.96290053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_f5a694420ab14f88b3e27dea3a8805ed = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cf090883c32d4d799f68bb0b51cd9519.setIcon(icon_f5a694420ab14f88b3e27dea3a8805ed);
+            
+    
+            var popup_32f613b2b84440338e28bfe896b50a58 = L.popup({maxWidth: '300'});
+
+            
+                var html_ed58876ae5e84c7386ca40d7a9cbe104 = $('<div id="html_ed58876ae5e84c7386ca40d7a9cbe104" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_32f613b2b84440338e28bfe896b50a58.setContent(html_ed58876ae5e84c7386ca40d7a9cbe104);
+            
+
+            marker_cf090883c32d4d799f68bb0b51cd9519.bindPopup(popup_32f613b2b84440338e28bfe896b50a58);
+
+            
+        
+    
+
+            var marker_a1f4eb0a17f34356911892dcf67b97cd = L.marker(
+                [40.80781808,-73.96290053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_6b774c040c2442909926beaaf99a0edc = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a1f4eb0a17f34356911892dcf67b97cd.setIcon(icon_6b774c040c2442909926beaaf99a0edc);
+            
+    
+            var popup_f28be2159ad940e4abd8ee416126aaa1 = L.popup({maxWidth: '300'});
+
+            
+                var html_48d2bdf766894661a4571fb423c9ab01 = $('<div id="html_48d2bdf766894661a4571fb423c9ab01" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_f28be2159ad940e4abd8ee416126aaa1.setContent(html_48d2bdf766894661a4571fb423c9ab01);
+            
+
+            marker_a1f4eb0a17f34356911892dcf67b97cd.bindPopup(popup_f28be2159ad940e4abd8ee416126aaa1);
+
+            
+        
+    
+
+            var marker_203bc22155cd455e86d58dcbe64ff75c = L.marker(
+                [41.87359,-87.62479],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_627f3c7ab57940d2930822a18efb4d59 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_203bc22155cd455e86d58dcbe64ff75c.setIcon(icon_627f3c7ab57940d2930822a18efb4d59);
+            
+    
+            var popup_5bdb50621fc54d65b20db13fadce459a = L.popup({maxWidth: '300'});
+
+            
+                var html_f2b13057c8114adeaff76bd24c57c1dc = $('<div id="html_f2b13057c8114adeaff76bd24c57c1dc" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_5bdb50621fc54d65b20db13fadce459a.setContent(html_f2b13057c8114adeaff76bd24c57c1dc);
+            
+
+            marker_203bc22155cd455e86d58dcbe64ff75c.bindPopup(popup_5bdb50621fc54d65b20db13fadce459a);
+
+            
+        
+    
+
+            var marker_5dd05c68913f4e3e98f41177c51e3aa6 = L.marker(
+                [40.80767938,-73.96186163],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_04bd488e15fc47aea6c00a15cd2efa51 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5dd05c68913f4e3e98f41177c51e3aa6.setIcon(icon_04bd488e15fc47aea6c00a15cd2efa51);
+            
+    
+            var popup_d4a531a863104f0da36c835e3381d772 = L.popup({maxWidth: '300'});
+
+            
+                var html_cdb2832b070b4712927cdf0df6b8cc04 = $('<div id="html_cdb2832b070b4712927cdf0df6b8cc04" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_d4a531a863104f0da36c835e3381d772.setContent(html_cdb2832b070b4712927cdf0df6b8cc04);
+            
+
+            marker_5dd05c68913f4e3e98f41177c51e3aa6.bindPopup(popup_d4a531a863104f0da36c835e3381d772);
+
+            
+        
+    
+
+            var marker_dec8fede5e7e4b41aea875d90b90537d = L.marker(
+                [40.80781808,-73.96290053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_10fbbcd8659e4cf99fefde72437092fe = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dec8fede5e7e4b41aea875d90b90537d.setIcon(icon_10fbbcd8659e4cf99fefde72437092fe);
+            
+    
+            var popup_e106f0ffdae14d878f23901f2442e176 = L.popup({maxWidth: '300'});
+
+            
+                var html_0a9e5b39ef9f45eaabca07b66cea7302 = $('<div id="html_0a9e5b39ef9f45eaabca07b66cea7302" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_e106f0ffdae14d878f23901f2442e176.setContent(html_0a9e5b39ef9f45eaabca07b66cea7302);
+            
+
+            marker_dec8fede5e7e4b41aea875d90b90537d.bindPopup(popup_e106f0ffdae14d878f23901f2442e176);
+
+            
+        
+    
+
+            var marker_2b0c2dae7c6b4a2e8d256accba92197d = L.marker(
+                [40.80781808,-73.96290053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_b5a21faf525d448da289ddfee9d5103a = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2b0c2dae7c6b4a2e8d256accba92197d.setIcon(icon_b5a21faf525d448da289ddfee9d5103a);
+            
+    
+            var popup_ffe3296aff374b7ca52daa58af78cbb9 = L.popup({maxWidth: '300'});
+
+            
+                var html_1367dbe5593545bba0a84916b2511629 = $('<div id="html_1367dbe5593545bba0a84916b2511629" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_ffe3296aff374b7ca52daa58af78cbb9.setContent(html_1367dbe5593545bba0a84916b2511629);
+            
+
+            marker_2b0c2dae7c6b4a2e8d256accba92197d.bindPopup(popup_ffe3296aff374b7ca52daa58af78cbb9);
+
+            
+        
+    
+
+            var marker_855577fba9e2439bad2a776f7e12b961 = L.marker(
+                [40.80781808,-73.96290053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_48813f57d91f49d29e284a055201b7af = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_855577fba9e2439bad2a776f7e12b961.setIcon(icon_48813f57d91f49d29e284a055201b7af);
+            
+    
+            var popup_85fcb331fe66496f9570fe7db7fff558 = L.popup({maxWidth: '300'});
+
+            
+                var html_f84c718bdc1b4dc6af0abb12ed48d414 = $('<div id="html_f84c718bdc1b4dc6af0abb12ed48d414" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_85fcb331fe66496f9570fe7db7fff558.setContent(html_f84c718bdc1b4dc6af0abb12ed48d414);
+            
+
+            marker_855577fba9e2439bad2a776f7e12b961.bindPopup(popup_85fcb331fe66496f9570fe7db7fff558);
+
+            
+        
+    
+
+            var marker_259060b6890343689bee3dfab1f00aa9 = L.marker(
+                [40.807767,-73.96288905],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_4fd02b0b56564ae78a025aec6d52654c = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_259060b6890343689bee3dfab1f00aa9.setIcon(icon_4fd02b0b56564ae78a025aec6d52654c);
+            
+    
+            var popup_556f8948c3d64fcc9e1ee4bb8edce8fb = L.popup({maxWidth: '300'});
+
+            
+                var html_92ea4a117e8a40698c06a9800e040022 = $('<div id="html_92ea4a117e8a40698c06a9800e040022" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_556f8948c3d64fcc9e1ee4bb8edce8fb.setContent(html_92ea4a117e8a40698c06a9800e040022);
+            
+
+            marker_259060b6890343689bee3dfab1f00aa9.bindPopup(popup_556f8948c3d64fcc9e1ee4bb8edce8fb);
+
+            
+        
+    
+
+            var marker_bbc8e6e1b3234f23a658a902b7772155 = L.marker(
+                [40.807767,-73.96288905],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_a7a5eae4a814475ab8fe77a2db7102e5 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bbc8e6e1b3234f23a658a902b7772155.setIcon(icon_a7a5eae4a814475ab8fe77a2db7102e5);
+            
+    
+            var popup_92a4b2f6ffc04d948be15613170d2f54 = L.popup({maxWidth: '300'});
+
+            
+                var html_619e7c22d21d4400b5e5016141555edc = $('<div id="html_619e7c22d21d4400b5e5016141555edc" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_92a4b2f6ffc04d948be15613170d2f54.setContent(html_619e7c22d21d4400b5e5016141555edc);
+            
+
+            marker_bbc8e6e1b3234f23a658a902b7772155.bindPopup(popup_92a4b2f6ffc04d948be15613170d2f54);
+
+            
+        
+    
+
+            var marker_22ed5be3ccfe49d3b385348924c6ac70 = L.marker(
+                [40.80781808,-73.96290053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_d45a5b6a0b12498298cca913e2b0a4d4 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_22ed5be3ccfe49d3b385348924c6ac70.setIcon(icon_d45a5b6a0b12498298cca913e2b0a4d4);
+            
+    
+            var popup_21b75ad9b89a4f68b841c9d58788927c = L.popup({maxWidth: '300'});
+
+            
+                var html_e5b91728a22747469e1c0a92efce6a67 = $('<div id="html_e5b91728a22747469e1c0a92efce6a67" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_21b75ad9b89a4f68b841c9d58788927c.setContent(html_e5b91728a22747469e1c0a92efce6a67);
+            
+
+            marker_22ed5be3ccfe49d3b385348924c6ac70.bindPopup(popup_21b75ad9b89a4f68b841c9d58788927c);
+
+            
+        
+    
+
+            var marker_4cb415b8055e43b99bc11fcc70a14045 = L.marker(
+                [40.80781808,-73.96290053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_b7965d0b391c4b2484571d96e87655cf = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4cb415b8055e43b99bc11fcc70a14045.setIcon(icon_b7965d0b391c4b2484571d96e87655cf);
+            
+    
+            var popup_d18c15775ae54769966275ccb58decc1 = L.popup({maxWidth: '300'});
+
+            
+                var html_0e710e73bf384273af1dd82384673f97 = $('<div id="html_0e710e73bf384273af1dd82384673f97" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_d18c15775ae54769966275ccb58decc1.setContent(html_0e710e73bf384273af1dd82384673f97);
+            
+
+            marker_4cb415b8055e43b99bc11fcc70a14045.bindPopup(popup_d18c15775ae54769966275ccb58decc1);
+
+            
+        
+    
+
+            var marker_a9a91a8e511d4088be0c85d3f8a4ab27 = L.marker(
+                [40.80781808,-73.96290053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_b4a3e107eac94ef591f071e0c3abd29a = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a9a91a8e511d4088be0c85d3f8a4ab27.setIcon(icon_b4a3e107eac94ef591f071e0c3abd29a);
+            
+    
+            var popup_81312a096e344b94847d240b1094c96c = L.popup({maxWidth: '300'});
+
+            
+                var html_4cba1b9097334f508dc3911d41c679ca = $('<div id="html_4cba1b9097334f508dc3911d41c679ca" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_81312a096e344b94847d240b1094c96c.setContent(html_4cba1b9097334f508dc3911d41c679ca);
+            
+
+            marker_a9a91a8e511d4088be0c85d3f8a4ab27.bindPopup(popup_81312a096e344b94847d240b1094c96c);
+
+            
+        
+    
+
+            var marker_1a53c373d28e443fb7d3736cc5f6e724 = L.marker(
+                [40.80781808,-73.96290053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_d8425c9912bc4a669f8e3d93c9f0f040 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1a53c373d28e443fb7d3736cc5f6e724.setIcon(icon_d8425c9912bc4a669f8e3d93c9f0f040);
+            
+    
+            var popup_7ce546f7e1134c7aa595e25b6d3ab549 = L.popup({maxWidth: '300'});
+
+            
+                var html_2824e2ac120248c49459a4b591ca7e95 = $('<div id="html_2824e2ac120248c49459a4b591ca7e95" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_7ce546f7e1134c7aa595e25b6d3ab549.setContent(html_2824e2ac120248c49459a4b591ca7e95);
+            
+
+            marker_1a53c373d28e443fb7d3736cc5f6e724.bindPopup(popup_7ce546f7e1134c7aa595e25b6d3ab549);
+
+            
+        
+    
+
+            var marker_d0ac87f2562c4047ac55a62837caa355 = L.marker(
+                [40.80767938,-73.96186163],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_c14ab29a6d9d497ebee8fc4d6bac7f20 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d0ac87f2562c4047ac55a62837caa355.setIcon(icon_c14ab29a6d9d497ebee8fc4d6bac7f20);
+            
+    
+            var popup_bae98f22a9744414b7e301e2cae9fcae = L.popup({maxWidth: '300'});
+
+            
+                var html_4a47dd4bb2b74046bfaceb96d67ebe32 = $('<div id="html_4a47dd4bb2b74046bfaceb96d67ebe32" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_bae98f22a9744414b7e301e2cae9fcae.setContent(html_4a47dd4bb2b74046bfaceb96d67ebe32);
+            
+
+            marker_d0ac87f2562c4047ac55a62837caa355.bindPopup(popup_bae98f22a9744414b7e301e2cae9fcae);
+
+            
+        
+    
+
+            var marker_a94f147d881b40829a0f62950598f2e7 = L.marker(
+                [40.807767,-73.96288905],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_e046f3e9f25c4619a7ce1a8e747fe7db = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a94f147d881b40829a0f62950598f2e7.setIcon(icon_e046f3e9f25c4619a7ce1a8e747fe7db);
+            
+    
+            var popup_49cff3d7b15d41a399e772e08911d6cd = L.popup({maxWidth: '300'});
+
+            
+                var html_c20d0461883b414290e342cf5d2af466 = $('<div id="html_c20d0461883b414290e342cf5d2af466" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_49cff3d7b15d41a399e772e08911d6cd.setContent(html_c20d0461883b414290e342cf5d2af466);
+            
+
+            marker_a94f147d881b40829a0f62950598f2e7.bindPopup(popup_49cff3d7b15d41a399e772e08911d6cd);
+
+            
+        
+    
+
+            var marker_84525029be1645089d6c315251194d7b = L.marker(
+                [40.80781808,-73.96290053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_483edc30a7204da3bdd93e2801ff7778 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_84525029be1645089d6c315251194d7b.setIcon(icon_483edc30a7204da3bdd93e2801ff7778);
+            
+    
+            var popup_f770497cc5064c41bd26de852451fcf6 = L.popup({maxWidth: '300'});
+
+            
+                var html_285ba7ae5e194c5b9a970377f94f8dbc = $('<div id="html_285ba7ae5e194c5b9a970377f94f8dbc" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_f770497cc5064c41bd26de852451fcf6.setContent(html_285ba7ae5e194c5b9a970377f94f8dbc);
+            
+
+            marker_84525029be1645089d6c315251194d7b.bindPopup(popup_f770497cc5064c41bd26de852451fcf6);
+
+            
+        
+    
+
+            var marker_e6dc858949c145119009d11779183b21 = L.marker(
+                [40.80752994,-73.96288905],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_e5065020a42642bf89c8001fb2e4b25e = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e6dc858949c145119009d11779183b21.setIcon(icon_e5065020a42642bf89c8001fb2e4b25e);
+            
+    
+            var popup_69162c41c02f47faa6be02db38284adc = L.popup({maxWidth: '300'});
+
+            
+                var html_bbbe919e40d1484dac879fefaca678a6 = $('<div id="html_bbbe919e40d1484dac879fefaca678a6" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_69162c41c02f47faa6be02db38284adc.setContent(html_bbbe919e40d1484dac879fefaca678a6);
+            
+
+            marker_e6dc858949c145119009d11779183b21.bindPopup(popup_69162c41c02f47faa6be02db38284adc);
+
+            
+        
+    
+
+            var marker_f9a7192ff5f342b58d6c9462b46ed4c3 = L.marker(
+                [40.80781808,-73.96290053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_5f7c9d13a19c45819ba794be3ff550e4 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f9a7192ff5f342b58d6c9462b46ed4c3.setIcon(icon_5f7c9d13a19c45819ba794be3ff550e4);
+            
+    
+            var popup_eeefc5f71e544692a1602940a17ff74d = L.popup({maxWidth: '300'});
+
+            
+                var html_4aa464afcced45eb8bfae0292c328f5e = $('<div id="html_4aa464afcced45eb8bfae0292c328f5e" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_eeefc5f71e544692a1602940a17ff74d.setContent(html_4aa464afcced45eb8bfae0292c328f5e);
+            
+
+            marker_f9a7192ff5f342b58d6c9462b46ed4c3.bindPopup(popup_eeefc5f71e544692a1602940a17ff74d);
+
+            
+        
+    
+
+            var marker_f69180d97d2440c68fb4464d7e1980e5 = L.marker(
+                [40.80767938,-73.96186163],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_fbbc83e98b4f43f58e1e1e77f29d9dae = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f69180d97d2440c68fb4464d7e1980e5.setIcon(icon_fbbc83e98b4f43f58e1e1e77f29d9dae);
+            
+    
+            var popup_daef5b6163d54990a2d8a346aac60279 = L.popup({maxWidth: '300'});
+
+            
+                var html_883091ef5e9f43d19acfdf3fd03ca7cb = $('<div id="html_883091ef5e9f43d19acfdf3fd03ca7cb" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_daef5b6163d54990a2d8a346aac60279.setContent(html_883091ef5e9f43d19acfdf3fd03ca7cb);
+            
+
+            marker_f69180d97d2440c68fb4464d7e1980e5.bindPopup(popup_daef5b6163d54990a2d8a346aac60279);
+
+            
+        
+    
+
+            var marker_6eaf45a679744b3d913f0826254c8cc1 = L.marker(
+                [40.80781808,-73.96290053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_bc1f02bdb74c45c39a4c440ff027f989 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6eaf45a679744b3d913f0826254c8cc1.setIcon(icon_bc1f02bdb74c45c39a4c440ff027f989);
+            
+    
+            var popup_786675bb8acf4fe2b84adb1de04e7d78 = L.popup({maxWidth: '300'});
+
+            
+                var html_8d419d4e1d544afea13b31e27d538bff = $('<div id="html_8d419d4e1d544afea13b31e27d538bff" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_786675bb8acf4fe2b84adb1de04e7d78.setContent(html_8d419d4e1d544afea13b31e27d538bff);
+            
+
+            marker_6eaf45a679744b3d913f0826254c8cc1.bindPopup(popup_786675bb8acf4fe2b84adb1de04e7d78);
+
+            
+        
+    
+
+            var marker_a58c81092d924752a2c897f0e8a51268 = L.marker(
+                [40.807767,-73.96288905],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_1125fcf222964b03840ccb6dd61b5436 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a58c81092d924752a2c897f0e8a51268.setIcon(icon_1125fcf222964b03840ccb6dd61b5436);
+            
+    
+            var popup_11a89f7d46784849977266b38c003cd9 = L.popup({maxWidth: '300'});
+
+            
+                var html_7979faf7a26748bfb62e8eb770de624d = $('<div id="html_7979faf7a26748bfb62e8eb770de624d" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_11a89f7d46784849977266b38c003cd9.setContent(html_7979faf7a26748bfb62e8eb770de624d);
+            
+
+            marker_a58c81092d924752a2c897f0e8a51268.bindPopup(popup_11a89f7d46784849977266b38c003cd9);
+
+            
+        
+    
+
+            var marker_ff8655b549be4641b885856e59a3daa0 = L.marker(
+                [40.807767,-73.96288905],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_e996ff0ae0f940fca8beec92dd63a2ca = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ff8655b549be4641b885856e59a3daa0.setIcon(icon_e996ff0ae0f940fca8beec92dd63a2ca);
+            
+    
+            var popup_e94504f0b01441deac58a310e4da4dc9 = L.popup({maxWidth: '300'});
+
+            
+                var html_7736cf1dd47f443580aa483c2cc922a7 = $('<div id="html_7736cf1dd47f443580aa483c2cc922a7" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_e94504f0b01441deac58a310e4da4dc9.setContent(html_7736cf1dd47f443580aa483c2cc922a7);
+            
+
+            marker_ff8655b549be4641b885856e59a3daa0.bindPopup(popup_e94504f0b01441deac58a310e4da4dc9);
+
+            
+        
+    
+
+            var marker_d17ef67d101d418f9e24cf5a6aafa476 = L.marker(
+                [40.80767938,-73.96186163],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_a5407433fc2c4498af2c0c3504950e2d = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d17ef67d101d418f9e24cf5a6aafa476.setIcon(icon_a5407433fc2c4498af2c0c3504950e2d);
+            
+    
+            var popup_d2c250d2071248a3a64e78dd32b8f74e = L.popup({maxWidth: '300'});
+
+            
+                var html_6c5810f9483c4a469a7d11e4f21ca4e4 = $('<div id="html_6c5810f9483c4a469a7d11e4f21ca4e4" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_d2c250d2071248a3a64e78dd32b8f74e.setContent(html_6c5810f9483c4a469a7d11e4f21ca4e4);
+            
+
+            marker_d17ef67d101d418f9e24cf5a6aafa476.bindPopup(popup_d2c250d2071248a3a64e78dd32b8f74e);
+
+            
+        
+    
+
+            var marker_e82f8d35315d496ca212baad1a6d7048 = L.marker(
+                [40.807767,-73.96288905],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_df927497730b4fa2a580d2ca66729fed = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e82f8d35315d496ca212baad1a6d7048.setIcon(icon_df927497730b4fa2a580d2ca66729fed);
+            
+    
+            var popup_25ec7f3c036043a3b1e4e60e2377772d = L.popup({maxWidth: '300'});
+
+            
+                var html_523f06be8465495a8c2b4ed2775b4638 = $('<div id="html_523f06be8465495a8c2b4ed2775b4638" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_25ec7f3c036043a3b1e4e60e2377772d.setContent(html_523f06be8465495a8c2b4ed2775b4638);
+            
+
+            marker_e82f8d35315d496ca212baad1a6d7048.bindPopup(popup_25ec7f3c036043a3b1e4e60e2377772d);
+
+            
+        
+    
+
+            var marker_a91c3da6ddac43348e87cb5467ae2d25 = L.marker(
+                [40.807767,-73.96288905],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_1351d821229d48fe9afacd13b39e808f = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a91c3da6ddac43348e87cb5467ae2d25.setIcon(icon_1351d821229d48fe9afacd13b39e808f);
+            
+    
+            var popup_4585ccface03405784a013cef80ba1ad = L.popup({maxWidth: '300'});
+
+            
+                var html_72d00a06dc1444c6b0c3b755a5bea67b = $('<div id="html_72d00a06dc1444c6b0c3b755a5bea67b" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_4585ccface03405784a013cef80ba1ad.setContent(html_72d00a06dc1444c6b0c3b755a5bea67b);
+            
+
+            marker_a91c3da6ddac43348e87cb5467ae2d25.bindPopup(popup_4585ccface03405784a013cef80ba1ad);
+
+            
+        
+    
+
+            var marker_3afc85b8b26d413ebece365745bc4e67 = L.marker(
+                [40.807767,-73.96288905],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_b7bc531737d44f70b48a0900c4f5a111 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3afc85b8b26d413ebece365745bc4e67.setIcon(icon_b7bc531737d44f70b48a0900c4f5a111);
+            
+    
+            var popup_ad0f5cce6f0540efb494657f221923f7 = L.popup({maxWidth: '300'});
+
+            
+                var html_8146cac33e3c4b39b7ec1a4bf80d020b = $('<div id="html_8146cac33e3c4b39b7ec1a4bf80d020b" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_ad0f5cce6f0540efb494657f221923f7.setContent(html_8146cac33e3c4b39b7ec1a4bf80d020b);
+            
+
+            marker_3afc85b8b26d413ebece365745bc4e67.bindPopup(popup_ad0f5cce6f0540efb494657f221923f7);
+
+            
+        
+    
+
+            var marker_b64f676a40a241d3b1e03dbe91d4e845 = L.marker(
+                [40.8167886,-73.9585985],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_7500e469ae0d48679c73f8daf7983830 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b64f676a40a241d3b1e03dbe91d4e845.setIcon(icon_7500e469ae0d48679c73f8daf7983830);
+            
+    
+            var popup_0fe5b59e31f047e5b7a0e88922251079 = L.popup({maxWidth: '300'});
+
+            
+                var html_207be93beaeb412f9e8c7a6cce66abf3 = $('<div id="html_207be93beaeb412f9e8c7a6cce66abf3" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_0fe5b59e31f047e5b7a0e88922251079.setContent(html_207be93beaeb412f9e8c7a6cce66abf3);
+            
+
+            marker_b64f676a40a241d3b1e03dbe91d4e845.bindPopup(popup_0fe5b59e31f047e5b7a0e88922251079);
+
+            
+        
+    
+
+            var marker_0703928ed71648919330c6f727319d49 = L.marker(
+                [40.80781808,-73.96290053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_7bfb1db45b5a46acb8cffb70796584ee = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0703928ed71648919330c6f727319d49.setIcon(icon_7bfb1db45b5a46acb8cffb70796584ee);
+            
+    
+            var popup_7905bdd7feea40d88f7cc08ec4418937 = L.popup({maxWidth: '300'});
+
+            
+                var html_961c2f1751af478b92b8037901a2c7e0 = $('<div id="html_961c2f1751af478b92b8037901a2c7e0" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_7905bdd7feea40d88f7cc08ec4418937.setContent(html_961c2f1751af478b92b8037901a2c7e0);
+            
+
+            marker_0703928ed71648919330c6f727319d49.bindPopup(popup_7905bdd7feea40d88f7cc08ec4418937);
+
+            
+        
+    
+
+            var marker_ae5e6a327a6943529da00a3ec2308c78 = L.marker(
+                [40.80781808,-73.96290053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_2fcd7e1439a14a57b431184ba2c3668a = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ae5e6a327a6943529da00a3ec2308c78.setIcon(icon_2fcd7e1439a14a57b431184ba2c3668a);
+            
+    
+            var popup_2e9788cde0e04b8fa98f888e6556010c = L.popup({maxWidth: '300'});
+
+            
+                var html_d8b34e4cf8174d66adc4fac1ecad09e7 = $('<div id="html_d8b34e4cf8174d66adc4fac1ecad09e7" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_2e9788cde0e04b8fa98f888e6556010c.setContent(html_d8b34e4cf8174d66adc4fac1ecad09e7);
+            
+
+            marker_ae5e6a327a6943529da00a3ec2308c78.bindPopup(popup_2e9788cde0e04b8fa98f888e6556010c);
+
+            
+        
+    
+
+            var marker_0cc0573f0d4441ebbd5536c1441b7cc2 = L.marker(
+                [40.807767,-73.96288905],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_3e985b5182e6485db867351ecf866b06 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0cc0573f0d4441ebbd5536c1441b7cc2.setIcon(icon_3e985b5182e6485db867351ecf866b06);
+            
+    
+            var popup_e1417014f71444d795283ddb650463b6 = L.popup({maxWidth: '300'});
+
+            
+                var html_5c0c7dff6a4844d7a22f48c3939fc738 = $('<div id="html_5c0c7dff6a4844d7a22f48c3939fc738" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_e1417014f71444d795283ddb650463b6.setContent(html_5c0c7dff6a4844d7a22f48c3939fc738);
+            
+
+            marker_0cc0573f0d4441ebbd5536c1441b7cc2.bindPopup(popup_e1417014f71444d795283ddb650463b6);
+
+            
+        
+    
+
+            var marker_4b69e27d40a243d08563f7b2afd01c20 = L.marker(
+                [41.87417147,-87.62549081],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_d4bfd4ce765544f5b2ae2128864d7abb = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4b69e27d40a243d08563f7b2afd01c20.setIcon(icon_d4bfd4ce765544f5b2ae2128864d7abb);
+            
+    
+            var popup_00a53d656e164a60a6d9e57c8d81ede4 = L.popup({maxWidth: '300'});
+
+            
+                var html_1dfe283ced904f9b9ec0bfdf79ad0fb6 = $('<div id="html_1dfe283ced904f9b9ec0bfdf79ad0fb6" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_00a53d656e164a60a6d9e57c8d81ede4.setContent(html_1dfe283ced904f9b9ec0bfdf79ad0fb6);
+            
+
+            marker_4b69e27d40a243d08563f7b2afd01c20.bindPopup(popup_00a53d656e164a60a6d9e57c8d81ede4);
+
+            
+        
+    
+
+            var marker_ba6c233ae4ff4aa992c6b6bb2f487baa = L.marker(
+                [40.807767,-73.96288905],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_7d292448fa2744499db2cbd0e15bce1d = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ba6c233ae4ff4aa992c6b6bb2f487baa.setIcon(icon_7d292448fa2744499db2cbd0e15bce1d);
+            
+    
+            var popup_0d1cc812763046e082803a9e237c8168 = L.popup({maxWidth: '300'});
+
+            
+                var html_3e3c2d0891f74d8f8d1892b6bceb5083 = $('<div id="html_3e3c2d0891f74d8f8d1892b6bceb5083" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_0d1cc812763046e082803a9e237c8168.setContent(html_3e3c2d0891f74d8f8d1892b6bceb5083);
+            
+
+            marker_ba6c233ae4ff4aa992c6b6bb2f487baa.bindPopup(popup_0d1cc812763046e082803a9e237c8168);
+
+            
+        
+    
+
+            var marker_e7f4821c36ec4c36aa858fe4cbdf3e70 = L.marker(
+                [40.80767938,-73.96186163],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_3e60819e2a924fb3b950d4bbe4865f6e = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e7f4821c36ec4c36aa858fe4cbdf3e70.setIcon(icon_3e60819e2a924fb3b950d4bbe4865f6e);
+            
+    
+            var popup_fde636125bb1473099f9d38008af2e1c = L.popup({maxWidth: '300'});
+
+            
+                var html_12a71ca5024c453f9ad128120393d874 = $('<div id="html_12a71ca5024c453f9ad128120393d874" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_fde636125bb1473099f9d38008af2e1c.setContent(html_12a71ca5024c453f9ad128120393d874);
+            
+
+            marker_e7f4821c36ec4c36aa858fe4cbdf3e70.bindPopup(popup_fde636125bb1473099f9d38008af2e1c);
+
+            
+        
+    
+
+            var marker_131badf177ef4fd396a78fd71d09332a = L.marker(
+                [40.80767938,-73.96186163],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_5b017a4d991e42a1a6ffa61e877d08ce = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_131badf177ef4fd396a78fd71d09332a.setIcon(icon_5b017a4d991e42a1a6ffa61e877d08ce);
+            
+    
+            var popup_0fa938ce1ccc4224ba4a4e497d01b536 = L.popup({maxWidth: '300'});
+
+            
+                var html_2fb449c68dad4336aa7cca310a3ea6a5 = $('<div id="html_2fb449c68dad4336aa7cca310a3ea6a5" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_0fa938ce1ccc4224ba4a4e497d01b536.setContent(html_2fb449c68dad4336aa7cca310a3ea6a5);
+            
+
+            marker_131badf177ef4fd396a78fd71d09332a.bindPopup(popup_0fa938ce1ccc4224ba4a4e497d01b536);
+
+            
+        
+    
+
+            var marker_98d203288ea34b98b8735dd0a04ea0ac = L.marker(
+                [40.80781808,-73.96290053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_6ed88c2c47b3404f801b8f68df289172 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_98d203288ea34b98b8735dd0a04ea0ac.setIcon(icon_6ed88c2c47b3404f801b8f68df289172);
+            
+    
+            var popup_3597a2946090400f87cd403ce2616631 = L.popup({maxWidth: '300'});
+
+            
+                var html_c10f7b1e2b9d4431879648f36c456e20 = $('<div id="html_c10f7b1e2b9d4431879648f36c456e20" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_3597a2946090400f87cd403ce2616631.setContent(html_c10f7b1e2b9d4431879648f36c456e20);
+            
+
+            marker_98d203288ea34b98b8735dd0a04ea0ac.bindPopup(popup_3597a2946090400f87cd403ce2616631);
+
+            
+        
+    
+
+            var marker_4ce4796d770746eead7aa8b4d08e7ccf = L.marker(
+                [40.8086399,-73.95996],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_629045c01e0f469a83d2ef1fcc278492 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4ce4796d770746eead7aa8b4d08e7ccf.setIcon(icon_629045c01e0f469a83d2ef1fcc278492);
+            
+    
+            var popup_46ceacf0a2c14e7aaee22f65a56ba392 = L.popup({maxWidth: '300'});
+
+            
+                var html_e99f9e39b8154b418e81875c217e3652 = $('<div id="html_e99f9e39b8154b418e81875c217e3652" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_46ceacf0a2c14e7aaee22f65a56ba392.setContent(html_e99f9e39b8154b418e81875c217e3652);
+            
+
+            marker_4ce4796d770746eead7aa8b4d08e7ccf.bindPopup(popup_46ceacf0a2c14e7aaee22f65a56ba392);
+
+            
+        
+    
+
+            var marker_0a735157b24444c286f819c1ba3c8f50 = L.marker(
+                [40.8086399,-73.95996],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_4b1765ee0a084154a9d80ec59b06a663 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0a735157b24444c286f819c1ba3c8f50.setIcon(icon_4b1765ee0a084154a9d80ec59b06a663);
+            
+    
+            var popup_72ab069023f94b6b8226a0c79c01fba7 = L.popup({maxWidth: '300'});
+
+            
+                var html_0ecbf036d45040af9b92495914bb134d = $('<div id="html_0ecbf036d45040af9b92495914bb134d" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_72ab069023f94b6b8226a0c79c01fba7.setContent(html_0ecbf036d45040af9b92495914bb134d);
+            
+
+            marker_0a735157b24444c286f819c1ba3c8f50.bindPopup(popup_72ab069023f94b6b8226a0c79c01fba7);
+
+            
+        
+    
+
+            var marker_3153cb510bb14e5399291f2acb993423 = L.marker(
+                [25.2576,55.2885],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_a9b82b7deb4f45119003d2094cf216c4 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3153cb510bb14e5399291f2acb993423.setIcon(icon_a9b82b7deb4f45119003d2094cf216c4);
+            
+    
+            var popup_3e27482c2d7549b08a0c57e2ebb9fabb = L.popup({maxWidth: '300'});
+
+            
+                var html_6b5d0fc4bcd44d0f8ab4e4511327f26c = $('<div id="html_6b5d0fc4bcd44d0f8ab4e4511327f26c" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_3e27482c2d7549b08a0c57e2ebb9fabb.setContent(html_6b5d0fc4bcd44d0f8ab4e4511327f26c);
+            
+
+            marker_3153cb510bb14e5399291f2acb993423.bindPopup(popup_3e27482c2d7549b08a0c57e2ebb9fabb);
+
+            
+        
+    
+
+            var marker_56be7f412ed349b7ac2285f35f200fae = L.marker(
+                [25.2576,55.2885],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_5fa1f486b85947a29653be5bd77670a2 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_56be7f412ed349b7ac2285f35f200fae.setIcon(icon_5fa1f486b85947a29653be5bd77670a2);
+            
+    
+            var popup_1eeb984b428d439aba099f4e02418be5 = L.popup({maxWidth: '300'});
+
+            
+                var html_fe7c24e0a0434650b7f8bac79519c847 = $('<div id="html_fe7c24e0a0434650b7f8bac79519c847" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_1eeb984b428d439aba099f4e02418be5.setContent(html_fe7c24e0a0434650b7f8bac79519c847);
+            
+
+            marker_56be7f412ed349b7ac2285f35f200fae.bindPopup(popup_1eeb984b428d439aba099f4e02418be5);
+
+            
+        
+    
+
+            var marker_f695d1bc892945f0800e81008991795b = L.marker(
+                [40.807767,-73.96288905],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_a56709d6b16345649bbfdf3c8fdf2f5a);
+            
+    
+
+                var icon_5591e6b367e74c80bc6ed150e466174e = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f695d1bc892945f0800e81008991795b.setIcon(icon_5591e6b367e74c80bc6ed150e466174e);
+            
+    
+            var popup_07db87bcff484fdca648de5c81272106 = L.popup({maxWidth: '300'});
+
+            
+                var html_54fd7b533796404baca24944f786dbf4 = $('<div id="html_54fd7b533796404baca24944f786dbf4" style="width: 100.0%; height: 100.0%;">Columbia</div>')[0];
+                popup_07db87bcff484fdca648de5c81272106.setContent(html_54fd7b533796404baca24944f786dbf4);
+            
+
+            marker_f695d1bc892945f0800e81008991795b.bindPopup(popup_07db87bcff484fdca648de5c81272106);
+
+            
+        
+</script>
